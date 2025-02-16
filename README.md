@@ -1,16 +1,85 @@
-# restaurant_app_ui
+# Khmer Foodies App 
+![UI 2](https://github.com/user-attachments/assets/1c688a52-c38c-483e-aafd-01c8f38b3cb5)
+![UI 1 ](https://github.com/user-attachments/assets/bec92128-16b1-40d5-b36e-73a32b7a766f)
 
-A new Flutter project.
+## Overview
+**Khmer Foodies** is a Flutter application showcasing various Cambodian dishes. The app features a clean UI with a banner, a list of food items loaded from a JSON file, and interactive elements for navigation.
 
-## Getting Started
+## Features
+- **Beautiful UI** with a custom font and styling.
+- **Dynamic Food List** loaded from `data.json`.
+- **Responsive Design** that adapts to different screen sizes.
+- **Navigation Menu** with user and menu icons.
+- **Smooth Scrolling** using `ListView` and `SingleChildScrollView`.
 
-This project is a starting point for a Flutter application.
+## Installation
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-repo/khmer-foodies.git
+   cd khmer-foodies
+   ```
+2. **Install dependencies:**
+   ```sh
+   flutter pub get
+   ```
+3. **Run the app:**
+   ```sh
+   flutter run
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
+```
+khmer_foodies/
+│── assets/
+│   ├── images/
+│   ├── data.json  # Contains food data
+│── lib/
+│   ├── main.dart
+│   ├── home_page.dart
+│   ├── banner_widget.dart
+│── pubspec.yaml
+│── README.md
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencies
+Ensure the following dependencies are in your `pubspec.yaml`:
+```yaml
+flutter:
+  sdk: flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+dependencies:
+  flutter:
+    sdk: flutter
+  json_annotation: any
+```
+
+## Data Structure (`assets/data.json`)
+```json
+[
+  {
+    "name": "Amok",
+    "image": "assets/images/amok.jpg",
+    "description": "A popular Cambodian dish made with fish and coconut curry."
+  },
+  {
+    "name": "Bai Sach Chrouk",
+    "image": "assets/images/bai_sach_chrouk.jpg",
+    "description": "Grilled pork with rice, commonly eaten for breakfast."
+  }
+]
+```
+
+## Known Issues
+- Ensure that `data.json` is correctly formatted and included in `pubspec.yaml`.
+- If assets are not loading, run:
+  ```sh
+  flutter clean && flutter pub get
+  ```
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For any issues or suggestions, feel free to open an issue or contribute!
+
+Happy coding! 🚀
