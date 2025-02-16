@@ -1,0 +1,32 @@
+[
+  {
+    "placeImage": "images/amok.jpg",
+    "placeName": "The Fish Amok",
+    "placeItems": ["Amok", "Chicken", "Curry", "Khmer Noodle", "Khmer Noodle"],
+    "minOrder": 20
+  },
+  {
+    "placeImage": "images/chicken_steam.jpg",
+    "placeName": "Khmer Steam Chicken",
+    "placeItems": ["Amok", "Chicken", "Curry", "Khmer Noodle", "Khmer Noodle"],
+    "minOrder": 50
+  },
+  {
+    "placeImage": "images/curry.jpg",
+    "placeName": "Khmer Curry",
+    "placeItems": ["Amok", "Chicken", "Curry", "Khmer Noodle", "Khmer Noodle"],
+    "minOrder": 20
+  },
+  {
+    "placeImage": "images/norm_pjok.jpg",
+    "placeName": "Khmer Noodle",
+    "placeItems": ["Amok", "Chicken", "Curry", "Khmer Noodle", "Khmer Noodle"],
+    "minOrder": 40
+  },
+  {
+    "placeImage": "images/norm_pjok.jpg",
+    "placeName": "Khmer Noodle",
+    "placeItems": ["Amok", "Chicken", "Curry", "Khmer Noodle", "Khmer Noodle"],
+    "minOrder": 40
+  }
+]
